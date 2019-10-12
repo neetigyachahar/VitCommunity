@@ -1,7 +1,7 @@
 from collections import deque, namedtuple
 import sys
 import json
-
+'''this is a program dem onstrating dijkstra's algorithm'''
 # we'll use infinity as a default distance to nodes.
 inf = float('inf')
 Edge = namedtuple('Edge', 'start, end, cost')
